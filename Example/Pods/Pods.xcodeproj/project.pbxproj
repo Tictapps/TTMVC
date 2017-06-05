@@ -7,28 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0691C4A6D660765C89A33EB446234E72 /* TTGenericService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68926CCF722F30C9266602DA78F0BCF /* TTGenericService.swift */; };
 		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */; };
-		185833F16988042B634294E92D55E0C0 /* TTGenericDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169A0FD02D89424468F2E05A3808E380 /* TTGenericDTO.swift */; };
 		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */; };
 		47F93A20E5B26F067A5C6A7F6D4DD179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
 		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E230A0448B394DE26E688DAC8E6201E /* Request.swift */; };
 		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */; };
 		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */; };
-		710BBB410D3FE35B61CFCD727FCB95C2 /* TTResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D614E9916A5949608CDE58B8EE1034F8 /* TTResult.swift */; };
+		6DB03BD64847590403291B3822CC3FAD /* TTGenericDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E7027868B64C028B9FBEBD4DCC300 /* TTGenericDAO.swift */; };
 		733ACBFFF31BEE8CB37123EA1F0B5FE2 /* Pods-TTMVC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB27724D20DF8C4C1A070BAA57963C8 /* Pods-TTMVC_Example-dummy.m */; };
+		734D955451AE54C7AB1AE83AEBBC231B /* TTGenericService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C4C374B7D01E3D30D5DBBF5EB1FA5 /* TTGenericService.swift */; };
 		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
+		760998CAF067B048966EB8096100DD44 /* TTMVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 550B5B247B5BD4CDED587D8A077B44C5 /* TTMVC-dummy.m */; };
 		7874D06B1913C17A29767EAC1620ABC2 /* Pods-TTMVC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0CEC1FDCE5700360728CACB02AA710 /* Pods-TTMVC_Tests-dummy.m */; };
 		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */; };
 		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */; };
 		7F7E7EA1EE926FC055DB3EE9AA6FE878 /* TTMVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F103530244C33E7C407D7998AF3DC2 /* TTMVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93BFA27760DF402F12414A4C30A0845C /* TTPlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9A1F891847D725CA1AE9A1920B8C01 /* TTPlistManager.swift */; };
 		97CBD9AD77D014C438E38242A8AD4F80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
+		9A4D386D72A52770723C863EA8487887 /* TTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D3320030DB4D51E6FF320088FAA169 /* TTError.swift */; };
 		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */; };
 		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */; };
-		A48E6AFB8D8FF2162F88E55D18243377 /* TTGenericDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F452972BD182E1EB418926BAB5F9D9 /* TTGenericDAO.swift */; };
-		A70060ED9B5AAFC48076882FCF38B348 /* TTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92BCD590461BC1BA6AFF316E28D9509 /* TTError.swift */; };
+		A4B351CDBD1CDA3320348B28FF5D69BB /* TTGenericDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81C11772AFCB43F9EA519E66D9AFC01 /* TTGenericDTO.swift */; };
 		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */; };
+		AAA3DEF24526A2766F9E0BBEB76AED45 /* TTResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A3779D2E26DBCCCE07567708ADD197 /* TTResult.swift */; };
 		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */; };
 		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */; };
 		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */; };
@@ -39,7 +41,6 @@
 		DF454EE7F1C19D406C015E0BB421D598 /* Pods-TTMVC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9C02ED7B65EB653AE63B9857637B01 /* Pods-TTMVC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3D4B02BE96032A931C2532142DF10A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
 		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */; };
-		F1BF03BCBA7975CE0C0C33649B8B1653 /* TTMVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 550B5B247B5BD4CDED587D8A077B44C5 /* TTMVC-dummy.m */; };
 		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */; };
 		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
@@ -74,7 +75,6 @@
 		0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		13A0A663B36A229C69D5274A83E93F88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		169A0FD02D89424468F2E05A3808E380 /* TTGenericDTO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TTGenericDTO.swift; sourceTree = "<group>"; };
 		17531EDEC6ECDF08A5579C3ECFC89A97 /* TTMVC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTMVC.xcconfig; sourceTree = "<group>"; };
 		195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		1E230A0448B394DE26E688DAC8E6201E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
@@ -88,10 +88,12 @@
 		41EBAAF41EBA8CE9EE70AD8D4D398324 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4359FD2400D0012333AC218C7CF3A867 /* TTMVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTMVC-prefix.pch"; sourceTree = "<group>"; };
 		43660867B93BEB943FB88C14FB352F8D /* Pods_TTMVC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTMVC_Example.framework; path = "Pods-TTMVC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		438E7027868B64C028B9FBEBD4DCC300 /* TTGenericDAO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TTGenericDAO.swift; sourceTree = "<group>"; };
 		46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		550B5B247B5BD4CDED587D8A077B44C5 /* TTMVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTMVC-dummy.m"; sourceTree = "<group>"; };
 		5888ED6743650677E993E46718CB6878 /* Pods-TTMVC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTMVC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B5C4C374B7D01E3D30D5DBBF5EB1FA5 /* TTGenericService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TTGenericService.swift; sourceTree = "<group>"; };
 		6065FB53F7A69702719A8C2CB0406CFF /* Pods-TTMVC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTMVC_Tests-resources.sh"; sourceTree = "<group>"; };
 		6436F7BABBF3616F1FC7AF5CDE63A760 /* Pods-TTMVC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTMVC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
@@ -108,18 +110,19 @@
 		86FE12EA10436CD18B7102194DE5B9C4 /* Pods-TTMVC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TTMVC_Tests.modulemap"; sourceTree = "<group>"; };
 		87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		8EB27724D20DF8C4C1A070BAA57963C8 /* Pods-TTMVC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTMVC_Example-dummy.m"; sourceTree = "<group>"; };
+		91A3779D2E26DBCCCE07567708ADD197 /* TTResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TTResult.swift; sourceTree = "<group>"; };
 		92762F3B6D47EE76C365551EC618A51F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9530E875189D2AC1D9A5A5D71C161417 /* TTMVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TTMVC.modulemap; sourceTree = "<group>"; };
 		A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		A68926CCF722F30C9266602DA78F0BCF /* TTGenericService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TTGenericService.swift; sourceTree = "<group>"; };
+		A81C11772AFCB43F9EA519E66D9AFC01 /* TTGenericDTO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TTGenericDTO.swift; sourceTree = "<group>"; };
 		AD7D720FA4F873BF5F7B4FDE329177F3 /* Pods-TTMVC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTMVC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AE9A1F891847D725CA1AE9A1920B8C01 /* TTPlistManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TTPlistManager.swift; sourceTree = "<group>"; };
 		B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		B627DBE333DB0EF2D6AEF6E1FBB6087A /* Pods-TTMVC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTMVC_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		BCCA9CA7D9C1A2047BB93336C5708DFD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		C0F07F5606327714EA18189C9A181D9C /* Pods-TTMVC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTMVC_Example-resources.sh"; sourceTree = "<group>"; };
-		D614E9916A5949608CDE58B8EE1034F8 /* TTResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TTResult.swift; sourceTree = "<group>"; };
 		DB9C02ED7B65EB653AE63B9857637B01 /* Pods-TTMVC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTMVC_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
@@ -127,8 +130,7 @@
 		E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		EA5A7BFE6F7F8F933E129C8F8915AC6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1C0E26BE7C46EAF057D2DB90EE74E11 /* Pods-TTMVC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTMVC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F1F452972BD182E1EB418926BAB5F9D9 /* TTGenericDAO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TTGenericDAO.swift; sourceTree = "<group>"; };
-		F92BCD590461BC1BA6AFF316E28D9509 /* TTError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TTError.swift; sourceTree = "<group>"; };
+		F6D3320030DB4D51E6FF320088FAA169 /* TTError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TTError.swift; sourceTree = "<group>"; };
 		FAB76093E0D5C2DFEDFDE4B90C533AAC /* Pods-TTMVC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTMVC_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -187,13 +189,14 @@
 			path = "Target Support Files/Pods-TTMVC_Example";
 			sourceTree = "<group>";
 		};
-		1EA3998B5ED264B178D11CC15C1F0997 /* service */ = {
+		05B2D45BB3392DB20CC3DC16F2F8BA26 /* dao */ = {
 			isa = PBXGroup;
 			children = (
-				A68926CCF722F30C9266602DA78F0BCF /* TTGenericService.swift */,
+				438E7027868B64C028B9FBEBD4DCC300 /* TTGenericDAO.swift */,
+				91A3779D2E26DBCCCE07567708ADD197 /* TTResult.swift */,
 			);
-			name = service;
-			path = service;
+			name = dao;
+			path = dao;
 			sourceTree = "<group>";
 		};
 		200D10EB20F0397D47F022B50CF0433F /* Alamofire */ = {
@@ -222,12 +225,30 @@
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
+		21520346E38E30302C3ACA00ACD4AC6F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EDFC6B2DB799DDCF396ED78714583E09 /* dto */,
+			);
+			name = model;
+			path = model;
+			sourceTree = "<group>";
+		};
 		35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				200D10EB20F0397D47F022B50CF0433F /* Alamofire */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		4EE39DF7C022B5FDC10398BC3B5B38CB /* service */ = {
+			isa = PBXGroup;
+			children = (
+				5B5C4C374B7D01E3D30D5DBBF5EB1FA5 /* TTGenericService.swift */,
+			);
+			name = service;
+			path = service;
 			sourceTree = "<group>";
 		};
 		51A9B78D6A7E7FB5A465754528750815 /* iOS */ = {
@@ -261,16 +282,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		79106F2FD2644CC5E1110BF9BC70BBFA /* dto */ = {
-			isa = PBXGroup;
-			children = (
-				F92BCD590461BC1BA6AFF316E28D9509 /* TTError.swift */,
-				169A0FD02D89424468F2E05A3808E380 /* TTGenericDTO.swift */,
-			);
-			name = dto;
-			path = dto;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -300,16 +311,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9E80BFE62F640BB52207EC078AF46D27 /* dao */ = {
-			isa = PBXGroup;
-			children = (
-				F1F452972BD182E1EB418926BAB5F9D9 /* TTGenericDAO.swift */,
-				D614E9916A5949608CDE58B8EE1034F8 /* TTResult.swift */,
-			);
-			name = dao;
-			path = dao;
-			sourceTree = "<group>";
-		};
 		A79DC79C38169831D37F7884C10FCEC9 /* Pods-TTMVC_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,6 +329,18 @@
 			path = "Target Support Files/Pods-TTMVC_Tests";
 			sourceTree = "<group>";
 		};
+		B3494275C8C3C0E963C4E5EF2AA3EE7E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				05B2D45BB3392DB20CC3DC16F2F8BA26 /* dao */,
+				21520346E38E30302C3ACA00ACD4AC6F /* model */,
+				4EE39DF7C022B5FDC10398BC3B5B38CB /* service */,
+				FF4924DAE0357676528ECF1E8C384B82 /* util */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		B92D0510CEE635889CCCB186F9C07409 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,32 +352,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA8FB9820AE5D38471D6470D5E267CB3 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				79106F2FD2644CC5E1110BF9BC70BBFA /* dto */,
-			);
-			name = model;
-			path = model;
-			sourceTree = "<group>";
-		};
-		BE01620F3B7871BF7AA4DBAF2AE9EB0D /* TTMVC */ = {
-			isa = PBXGroup;
-			children = (
-				FA8F968609304CD3601F31DBD39C0DDD /* Classes */,
-			);
-			name = TTMVC;
-			path = TTMVC;
-			sourceTree = "<group>";
-		};
 		CCD5CD0FD3630BF7C4C2926267A2F4D1 /* TTMVC */ = {
 			isa = PBXGroup;
 			children = (
 				F2667A3249CEEC59AC544F26325FF3A7 /* Support Files */,
-				BE01620F3B7871BF7AA4DBAF2AE9EB0D /* TTMVC */,
+				FFBE72A96EC96BAC347E9D0EAE37E4B9 /* TTMVC */,
 			);
 			name = TTMVC;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		EDFC6B2DB799DDCF396ED78714583E09 /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				F6D3320030DB4D51E6FF320088FAA169 /* TTError.swift */,
+				A81C11772AFCB43F9EA519E66D9AFC01 /* TTGenericDTO.swift */,
+			);
+			name = dto;
+			path = dto;
 			sourceTree = "<group>";
 		};
 		F2667A3249CEEC59AC544F26325FF3A7 /* Support Files */ = {
@@ -381,15 +386,22 @@
 			path = "Example/Pods/Target Support Files/TTMVC";
 			sourceTree = "<group>";
 		};
-		FA8F968609304CD3601F31DBD39C0DDD /* Classes */ = {
+		FF4924DAE0357676528ECF1E8C384B82 /* util */ = {
 			isa = PBXGroup;
 			children = (
-				9E80BFE62F640BB52207EC078AF46D27 /* dao */,
-				BA8FB9820AE5D38471D6470D5E267CB3 /* model */,
-				1EA3998B5ED264B178D11CC15C1F0997 /* service */,
+				AE9A1F891847D725CA1AE9A1920B8C01 /* TTPlistManager.swift */,
 			);
-			name = Classes;
-			path = Classes;
+			name = util;
+			path = util;
+			sourceTree = "<group>";
+		};
+		FFBE72A96EC96BAC347E9D0EAE37E4B9 /* TTMVC */ = {
+			isa = PBXGroup;
+			children = (
+				B3494275C8C3C0E963C4E5EF2AA3EE7E /* Classes */,
+			);
+			name = TTMVC;
+			path = TTMVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,7 +446,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80B1779C5CF49F55AAABBD46C0D6D387 /* Build configuration list for PBXNativeTarget "TTMVC" */;
 			buildPhases = (
-				C1BCFF9840DACCBA5235E571E2C167CC /* Sources */,
+				261BD4FBC03BEBB23B4D02BDB197BF05 /* Sources */,
 				7B715BAC7BC5FCCE51B02EA251100BEF /* Frameworks */,
 				EC0F261F68F897B144CAFB15AF4A1402 /* Headers */,
 			);
@@ -531,6 +543,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		261BD4FBC03BEBB23B4D02BDB197BF05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4D386D72A52770723C863EA8487887 /* TTError.swift in Sources */,
+				6DB03BD64847590403291B3822CC3FAD /* TTGenericDAO.swift in Sources */,
+				A4B351CDBD1CDA3320348B28FF5D69BB /* TTGenericDTO.swift in Sources */,
+				734D955451AE54C7AB1AE83AEBBC231B /* TTGenericService.swift in Sources */,
+				760998CAF067B048966EB8096100DD44 /* TTMVC-dummy.m in Sources */,
+				93BFA27760DF402F12414A4C30A0845C /* TTPlistManager.swift in Sources */,
+				AAA3DEF24526A2766F9E0BBEB76AED45 /* TTResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		32B9974868188C4803318E36329C87FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -561,19 +587,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7874D06B1913C17A29767EAC1620ABC2 /* Pods-TTMVC_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1BCFF9840DACCBA5235E571E2C167CC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A70060ED9B5AAFC48076882FCF38B348 /* TTError.swift in Sources */,
-				A48E6AFB8D8FF2162F88E55D18243377 /* TTGenericDAO.swift in Sources */,
-				185833F16988042B634294E92D55E0C0 /* TTGenericDTO.swift in Sources */,
-				0691C4A6D660765C89A33EB446234E72 /* TTGenericService.swift in Sources */,
-				F1BF03BCBA7975CE0C0C33649B8B1653 /* TTMVC-dummy.m in Sources */,
-				710BBB410D3FE35B61CFCD727FCB95C2 /* TTResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
