@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TTMVC_Example' do
+  pod 'TTMVC', :path => '../'
+
+  target 'TTMVC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
