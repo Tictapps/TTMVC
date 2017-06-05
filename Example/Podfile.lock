@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.4.0)
+  - TTMVC (0.1.0):
+    - Alamofire (~> 4.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - TTMVC (from `../`)
+
+EXTERNAL SOURCES:
+  TTMVC:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  TTMVC: d6b40121b06a2b7d984c4b17f06feb7fb7750836
+
+PODFILE CHECKSUM: f03df5434b5427762b70333a830f6bcb79baca40
+
+COCOAPODS: 1.2.1

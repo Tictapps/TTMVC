@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'TTMVC_Example' do
   pod 'TTMVC', :path => '../'
+  pod 'Alamofire', '~> 4.4'
 
   target 'TTMVC_Tests' do
     inherit! :search_paths

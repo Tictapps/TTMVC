@@ -1,0 +1,6 @@
+framework module TTMVC {
+  umbrella header "TTMVC-umbrella.h"
+
+  export *
+  module * { export * }
+}

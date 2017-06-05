@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import TTMVC
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let countryService = CountryService()
+        countryService.getCountries(success: { (countries) in
+            print(countries)
+        }) { (error) in
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {

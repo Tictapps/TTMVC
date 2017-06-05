@@ -15,6 +15,11 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		DBAC3BC0A95B3B53EE687D83 /* Pods_TTMVC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6960AD95A242E68EF0512532 /* Pods_TTMVC_Example.framework */; };
+		E3D9F44D1EE5CF1000914B2D /* CountryDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D9F42C1EE5CF1000914B2D /* CountryDAO.swift */; };
+		E3D9F4541EE5CF1000914B2D /* CountryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D9F4341EE5CF1000914B2D /* CountryService.swift */; };
+		E3D9F47B1EE5CF6C00914B2D /* CountryDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D9F46D1EE5CF6C00914B2D /* CountryDTO.swift */; };
+		E3D9F47D1EE5CF6C00914B2D /* MessageDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D9F46F1EE5CF6C00914B2D /* MessageDTO.swift */; };
+		E3D9F48D1EE5D0A200914B2D /* CompanyDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D9F48C1EE5D0A200914B2D /* CompanyDTO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +34,7 @@
 
 /* Begin PBXFileReference section */
 		1F4D021458A46E937E260917 /* Pods-TTMVC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTMVC_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTMVC_Example/Pods-TTMVC_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		40DAA9A9ED3E61C2A1B5C1CA /* TTMVC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TTMVC.podspec; path = ../TTMVC.podspec; sourceTree = "<group>"; };
+		40DAA9A9ED3E61C2A1B5C1CA /* TTMVC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTMVC.podspec; path = ../TTMVC.podspec; sourceTree = "<group>"; };
 		4166BC71DF57EC0E9CE16CF3 /* Pods-TTMVC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTMVC_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTMVC_Example/Pods-TTMVC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TTMVC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTMVC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,11 +47,16 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6960AD95A242E68EF0512532 /* Pods_TTMVC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTMVC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83B0E86B783B95308BA4076A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		83B0E86B783B95308BA4076A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8424227391AA736C7705099D /* Pods-TTMVC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTMVC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTMVC_Tests/Pods-TTMVC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C090EE5C34DD5E32B89DFDBA /* Pods_TTMVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTMVC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCD691513D437BB4EA64E91 /* Pods-TTMVC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTMVC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTMVC_Tests/Pods-TTMVC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E850BD011CEA25FC9F3EB17B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E3D9F42C1EE5CF1000914B2D /* CountryDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDAO.swift; sourceTree = "<group>"; };
+		E3D9F4341EE5CF1000914B2D /* CountryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryService.swift; sourceTree = "<group>"; };
+		E3D9F46D1EE5CF6C00914B2D /* CountryDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDTO.swift; sourceTree = "<group>"; };
+		E3D9F46F1EE5CF6C00914B2D /* MessageDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDTO.swift; sourceTree = "<group>"; };
+		E3D9F48C1EE5D0A200914B2D /* CompanyDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyDTO.swift; sourceTree = "<group>"; };
+		E850BD011CEA25FC9F3EB17B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +114,9 @@
 		607FACD21AFB9204008FA782 /* Example for TTMVC */ = {
 			isa = PBXGroup;
 			children = (
+				E3D9F4671EE5CF6C00914B2D /* model */,
+				E3D9F42A1EE5CF1000914B2D /* dao */,
+				E3D9F4321EE5CF1000914B2D /* service */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -157,6 +170,40 @@
 				C090EE5C34DD5E32B89DFDBA /* Pods_TTMVC_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3D9F42A1EE5CF1000914B2D /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				E3D9F42C1EE5CF1000914B2D /* CountryDAO.swift */,
+			);
+			path = dao;
+			sourceTree = "<group>";
+		};
+		E3D9F4321EE5CF1000914B2D /* service */ = {
+			isa = PBXGroup;
+			children = (
+				E3D9F4341EE5CF1000914B2D /* CountryService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		E3D9F4671EE5CF6C00914B2D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E3D9F4681EE5CF6C00914B2D /* dto */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E3D9F4681EE5CF6C00914B2D /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				E3D9F48C1EE5D0A200914B2D /* CompanyDTO.swift */,
+				E3D9F46D1EE5CF6C00914B2D /* CountryDTO.swift */,
+				E3D9F46F1EE5CF6C00914B2D /* MessageDTO.swift */,
+			);
+			path = dto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,8 +408,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3D9F48D1EE5D0A200914B2D /* CompanyDTO.swift in Sources */,
+				E3D9F47D1EE5CF6C00914B2D /* MessageDTO.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				E3D9F47B1EE5CF6C00914B2D /* CountryDTO.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				E3D9F4541EE5CF1000914B2D /* CountryService.swift in Sources */,
+				E3D9F44D1EE5CF1000914B2D /* CountryDAO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
