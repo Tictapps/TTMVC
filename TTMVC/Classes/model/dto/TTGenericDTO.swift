@@ -40,11 +40,14 @@ open class TTGenericDTO: NSObject {
         let propertyNames = self.propertyNames()
         for key in dictionary.keys {
             if propertyNames.contains(key) {
-                self.setValue(dictionary[key], forKey: key)
+                if let theValue = dictionary[key] {
+                    if !(theValue is NSNull) {
+                        self.setValue(theValue, forKey: key)
+                    }
+                }
             }
         }
     }
-    
 
     func propertyNames() -> [String] {
         let mirrored_object = Mirror(reflecting: self)
