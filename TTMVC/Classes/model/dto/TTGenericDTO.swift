@@ -8,32 +8,6 @@
 
 import UIKit
 
-extension NSObject{
-    //returns the property type
-    func getTypeOfProperty(name:String)->String? {
-        let type: Mirror = Mirror(reflecting:self)
-        for child in type.children {
-            if child.label! == name
-            {
-                return String(describing: type(of: child.value))
-            }
-        }
-        return nil
-    }
-
-    func getTypeOf(name:String)->Any.Type? {
-        let type: Mirror = Mirror(reflecting:self)
-        for child in type.children {
-            if child.label! == name
-            {
-                return type(of: child.value)
-            }
-        }
-        return nil
-    }
-
-}
-
 open class TTGenericDTO: NSObject {
 
     open func loadFromDictionary(_ dictionary: [String: AnyObject]){
